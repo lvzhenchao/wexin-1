@@ -74,6 +74,10 @@
 ## 7-7 文件相关api
 ### FileSystemManager.saveFile 
 
+## 7-8 网络请求request等api
+### wx.request 发起https网络请求
+### wx.uploadFile 上传文件
+
 
 
 

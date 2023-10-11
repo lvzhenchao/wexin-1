@@ -74,21 +74,28 @@ Page({
     //   }
     // })
 
-    const fs = wx.getFileSystemManager();
-    var that = this;
-    wx.chooseMedia({
-      count: 20,
-      success: function(res){
+    // const fs = wx.getFileSystemManager();
+    // var that = this;
+    // wx.chooseMedia({
+    //   count: 20,
+    //   success: function(res){
+    //     console.log(res)
+    //     var temp = res.tempFiles[0].tempFilePath;
+    //     console.log(temp)
+    //     fs.saveFile({
+    //       tempFilePath: temp,
+    //       success:function(res1){
+    //         console.log(res1);
+    //         that.setData({img_url: res1.savedFilePath})
+    //       }
+    //     })
+    //   }
+    // })
+
+    wx.request({
+      url: 'http://api.sungoal.com/',
+      success:function(res){
         console.log(res)
-        var temp = res.tempFiles[0].tempFilePath;
-        console.log(temp)
-        fs.saveFile({
-          tempFilePath: temp,
-          success:function(res1){
-            console.log(res1);
-            that.setData({img_url: res1.savedFilePath})
-          }
-        })
       }
     })
     
