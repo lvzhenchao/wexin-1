@@ -1,0 +1,10 @@
+var username = '孙悟空';
+
+function test() {
+  return 'this is test';
+}
+
+module.exports={
+  USERNAME: username,
+  TEST: test
+}
