@@ -7,6 +7,9 @@ Page({
   data: {
 
   },
+  submit:function(e){
+    console.log(e.detail.value)
+  },
 
   /**
    * 生命周期函数--监听页面加载

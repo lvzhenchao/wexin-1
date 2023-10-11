@@ -1,7 +1,14 @@
 <!--pages/input/button.wxml-->
 <view>
-  <button type="default" size="mini" loading="true">default</button>
-  <button type="default" size="default" disabled="true">disabled</button>
+  <button type="default" name="username" size="mini" loading="true">default</button>
+  <button type="default" name="password" size="default" disabled="true">disabled</button>
   <button type="warn" >warn</button>
   <button type="primary">primary</button>
 </view>
+
+<form bindsubmit="submit">
+<input type="text" name="username" style="border: 1rpx solid red;"/>
+<input type="password" name="password" style="border: 1rpx solid red;"/>
+<button type="primary" form-type="submit">提交</button>
+  
+</form>
