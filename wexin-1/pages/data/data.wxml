@@ -25,7 +25,7 @@
   差
 </view>
 
-<!-- 模版数据 -->
+<!-- 模版数据  es6的写法，把对象展开了-->
 <template is="tem" data="{{...item}}"/>
 
 <template name="tem">
