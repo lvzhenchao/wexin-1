@@ -3,6 +3,7 @@ Page({
   data:{
     ind:'',
     country: ['中国', '日本', '韩国'],
+    img_url:''
   },
   sub:function(){
     // wx.showToast({
@@ -67,11 +68,30 @@ Page({
     //   }
     // })
 
-    wx.getNetworkType({
+    // wx.getNetworkType({
+    //   success: function(res){
+    //     console.log(res);
+    //   }
+    // })
+
+    const fs = wx.getFileSystemManager();
+    var that = this;
+    wx.chooseMedia({
+      count: 20,
       success: function(res){
-        console.log(res);
+        console.log(res)
+        var temp = res.tempFiles[0].tempFilePath;
+        console.log(temp)
+        fs.saveFile({
+          tempFilePath: temp,
+          success:function(res1){
+            console.log(res1);
+            that.setData({img_url: res1.savedFilePath})
+          }
+        })
       }
     })
+    
      
 
 

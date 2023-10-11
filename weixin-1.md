@@ -66,6 +66,15 @@
 ### wx.getSystemInfo 获取系统信息
 ### wx.getNetworkType 获取网络类型
 
+## 7-6 媒体相关接口
+### wx.chooseMedia 用这个代替上传图片
+### wx.previewImage 预览图片
+### wx.getImageInfo 获取图片信息
+
+## 7-7 文件相关api
+### FileSystemManager.saveFile 
+
+
 
 
 

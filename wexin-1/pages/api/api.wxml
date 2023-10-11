@@ -2,4 +2,5 @@
 <view>
   <text>{{country[ind]}}</text>
   <button bindtap="sub" type="primary">提交</button>
+  <img src="{{img_url}}" alt=""/>
 </view>
