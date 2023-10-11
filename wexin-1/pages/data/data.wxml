@@ -1,0 +1,26 @@
+<!--pages/data/data.wxml-->
+<view>
+{{username}}
+</view>
+<view>
+省份：{{pro[0]}}
+</view>
+<view>
+省份：{{count["a"]}}
+</view>
+
+<view wx:for="{{pro}}">
+{{index}}--{{item}}
+</view>
+<!-- 解决了多标签的嵌套 -->
+<block wx:for="{{pro}}" wx:key="unique">
+  <view>{{index}}</view>
+  <view>{{item}}</view>
+</block>
+
+<view wx:if="{{score > 90}}">
+  优秀
+</view>
+<view wx:else="{{score < 60}}">
+  差
+</view>

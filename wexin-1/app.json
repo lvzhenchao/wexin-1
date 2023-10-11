@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/data/data",
     "pages/input/button",
     "pages/swiper/swiper",
     "pages/scroll-view/scroll-view",
