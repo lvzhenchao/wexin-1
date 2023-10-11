@@ -22,5 +22,9 @@
 ### icon progress rich-text text
 
 ## 3-3 表单组件
-### 
+### navigator充当跳转链接，类似a标签
+
+## 3-4 多媒体组件
+
+## 3-5 地图组件
 
