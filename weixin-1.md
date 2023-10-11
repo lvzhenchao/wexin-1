@@ -39,7 +39,7 @@
 ## 就是写了个module,然后export出去
 
 # 7、API的使用：【最重要】【都有三个回调函数】
-## 界面api
+## 界面api 【注意this和that: 只要在回调函数里面就不能用this代表了】
 ### wx.showToast:显示消息提示框
 ### wx.hideToast:隐藏消息提示框
 ### wx.showLoading:显示 loading 提示框。需主动调用 wx.hideLoading 才能关闭提示框
