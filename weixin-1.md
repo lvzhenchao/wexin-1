@@ -39,12 +39,32 @@
 ## 就是写了个module,然后export出去
 
 # 7、API的使用：【最重要】【都有三个回调函数】
-## 界面api 【注意this和that: 只要在回调函数里面就不能用this代表了】
+
+## 7-1 交互界面api 【注意this和that: 只要在回调函数里面就不能用this代表了】
 ### wx.showToast:显示消息提示框
 ### wx.hideToast:隐藏消息提示框
 ### wx.showLoading:显示 loading 提示框。需主动调用 wx.hideLoading 才能关闭提示框
 ### wx.hideLoading:关闭loading
 ### wx.showModal：显示模态对话框
+
+## 7-2 导航栏api
+### wx.showNavigationBarLoading
+
+## 7-3 路由api
+### wx.navigateTo
+### ...
+
+## 7-4 数据缓存api
+### wx.setStorage 存储
+### wx.getStorage 获取数据
+### wx.getStorageInfo 异步获取当前storage的相关信息,所有的key的信息
+### wx.removeStorage 删除
+### ...
+
+## 7-5 设备、位置、系统的api
+### wx.getLocation 获取位置
+### wx.getSystemInfo 获取系统信息
+### wx.getNetworkType 获取网络类型
 
 
 

@@ -36,13 +36,44 @@ Page({
     //   }
     // })
 
-    var that = this;
-    wx.showActionSheet({
-      itemList: this.data.country,
+    // var that = this;
+    // wx.showActionSheet({
+    //   itemList: this.data.country,
+    //   success: function(res){
+    //     console.log(res);
+    //     that.setData({ind: res.tapIndex})
+    //   }
+    // })
+
+    // wx.navigateTo({
+    //   url: 'url',
+    // })
+
+    // wx.setStorage({
+    //   key:"name",
+    //   data:"lzc"
+    // })
+
+    // wx.getLocation({
+    //   type: 'wgs84',
+    //   success (res) {
+    //     console.log(res);
+    //   }
+    //  })
+
+    // wx.getSystemInfo({
+    //   success: function(res){
+    //       console.log(res)
+    //   }
+    // })
+
+    wx.getNetworkType({
       success: function(res){
         console.log(res);
-        that.setData({ind: res.tapIndex})
       }
     })
+     
+
+
   }
 })
