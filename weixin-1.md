@@ -38,6 +38,13 @@
 # 6、wxs：理解为PHP的一个公共类；是内联在wxml的脚本段。可以丰富模版的数据预处理能力。还可以用来编写简单的事件响应函数
 ## 就是写了个module,然后export出去
 
+# 7、API的使用：【最重要】【都有三个回调函数】
+## 界面api
+### wx.showToast:显示消息提示框
+### wx.hideToast:隐藏消息提示框
+### wx.showLoading:显示 loading 提示框。需主动调用 wx.hideLoading 才能关闭提示框
+### wx.hideLoading:关闭loading
+### wx.showModal：显示模态对话框
 
 
 

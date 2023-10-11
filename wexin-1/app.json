@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/api/api",
     "pages/data/data",
     "pages/input/button",
     "pages/swiper/swiper",

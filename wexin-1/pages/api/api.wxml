@@ -1,0 +1,5 @@
+<!--pages/api/api.wxml-->
+<view>
+  <text>{{country[ind]}}</text>
+  <button bindtap="sub" type="primary">提交</button>
+</view>
