@@ -24,3 +24,13 @@
 <view wx:else="{{score < 60}}">
   差
 </view>
+
+<!-- 模版数据 -->
+<template is="tem" data="{{...item}}"/>
+
+<template name="tem">
+  <view>
+    <text> {{index}}: {{msg}} </text>
+    <text> Time: {{time}} </text>
+  </view>
+</template>

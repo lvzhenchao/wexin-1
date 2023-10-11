@@ -8,7 +8,12 @@ Page({
     "username": "lzc",
     "pro":['山东','美国'],
     "count":{"a":"上东", "b":"山西"},
-    "score": 92
+    "score": 92,
+    item: {
+      index: 0,
+      msg: 'this is a template',
+      time: '2016-09-15'
+    }
   },
 
   /**
