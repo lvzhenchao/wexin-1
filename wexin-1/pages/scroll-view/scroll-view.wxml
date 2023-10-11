@@ -1,0 +1,14 @@
+<!--pages/scroll-view/scroll-view.wxml-->
+<scroll-view style="white-space: nowrap;" scroll-x="true">
+    <view style="background-color: red; width: 300rpx; height: 200rpx; display: inline-block;"></view>
+    <view style="background-color: blue; width: 300rpx; height: 200rpx;display: inline-block;"></view>
+    <view style="background-color: yellow; width: 300rpx; height: 200rpx;display: inline-block;"></view>
+    <view style="background-color: green; width: 300rpx; height: 200rpx;display: inline-block;"></view>
+</scroll-view>
+
+<scroll-view style="height: 300rpx;" scroll-y="true">
+    <view style="background-color: red; width: 300rpx; height: 600rpx; display: inline-block;"></view>
+    <view style="background-color: blue; width: 300rpx; height: 600rpx;display: inline-block;"></view>
+    <view style="background-color: yellow; width: 300rpx; height: 600rpx;display: inline-block;"></view>
+    <view style="background-color: green; width: 300rpx; height: 600rpx;display: inline-block;"></view>
+</scroll-view>

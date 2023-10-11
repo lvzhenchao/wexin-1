@@ -1,0 +1,6 @@
+<!--pages/logs/logs.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    logs
+  </view>
+</scroll-view>

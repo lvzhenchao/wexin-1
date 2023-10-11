@@ -1,0 +1,7 @@
+<!--pages/input/button.wxml-->
+<view>
+  <button type="default" size="mini" loading="true">default</button>
+  <button type="default" size="default" disabled="true">disabled</button>
+  <button type="warn" >warn</button>
+  <button type="primary">primary</button>
+</view>

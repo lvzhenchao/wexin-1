@@ -1,0 +1,14 @@
+/* pages/view/view.wxss */
+.v_press{
+  background-color: red;
+}
+.son_view{
+  width: 200rpx;
+  height: 200rpx;
+  border: 1rpx solid red;
+}
+.vv_press{
+  width: 400rpx;
+  height: 400rpx;
+  background-color: blue;
+}

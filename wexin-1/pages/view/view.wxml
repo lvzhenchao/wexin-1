@@ -1,0 +1,6 @@
+<!--pages/view/view.wxml-->
+<view hover-class="vv_press">
+  <view class="son_view" hover-start-time="2000" hover-class="v_press"  hover-stop-propagation="true">
+  hello lzc
+</view>
+</view>
