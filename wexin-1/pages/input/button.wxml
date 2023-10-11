@@ -12,3 +12,11 @@
 <button type="primary" form-type="submit">提交</button>
   
 </form>
+
+<view>
+  {{username}}
+</view>
+<view>
+  年龄：{{userinfo.age}}
+  性别：{{sex[0]}}
+</view>
