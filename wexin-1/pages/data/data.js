@@ -16,6 +16,13 @@ Page({
     }
   },
 
+  v1:function(obj){
+    console.log(obj)
+    console.log("v1")
+  },
+  v2:function(){
+    console.log("v2")
+  },
   /**
    * 生命周期函数--监听页面加载
    */
