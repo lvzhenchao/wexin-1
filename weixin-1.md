@@ -78,6 +78,34 @@
 ### wx.request 发起https网络请求
 ### wx.uploadFile 上传文件
 
+## 7-9 开放接口
+### wx.login
+### wx.getUserInfo
+### ...
+
+## 7-10 支付
+### wx.requestPayment 发起微信支付
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
